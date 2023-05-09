@@ -46,6 +46,7 @@ h1 {
 }
 main{
     flex-grow: 5;
+    flex-direction: column;
 }
 
 header, footer{
@@ -73,3 +74,11 @@ ul{
     display: flex;
     flex-direction: column;
 }
+.top-row{
+    min-height: 40%;
+}
+.top-row img{
+    width: 100%;
+}
+.bottom-row{}
+.bottom-row img{}
