@@ -36,3 +36,40 @@ h2 {
 h1 {
     font-family: 'Fredoka One', cursive;
 }
+.container{
+   /* background: red;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: space-between;
+}
+main{
+    flex-grow: 5;
+}
+
+header, footer{
+width: 100vw;
+flex-grow: 2;
+background-color: palevioletred;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+}
